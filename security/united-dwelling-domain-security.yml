@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.uniteddwelling.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 29 17:29:48 2026 GMT
+  hsts: null
+domains:
+- domain: uniteddwelling.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

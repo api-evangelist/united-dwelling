@@ -1,23 +1,65 @@
 aid: united-dwelling
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/united-dwelling.png
 name: United Dwelling
-description: United Dwelling is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: United Dwelling was a Los Angeles-based real estate development company
+  founded in 2018 by venture capitalist Steven Dietz to address the affordable housing
+  shortage by converting underused garages and backyards into accessory dwelling units
+  (ADUs). The company offered studio, one-bedroom, and two-bedroom zero-net-carbon
+  units ranging from 328 to 647 square feet and handled permitting, construction,
+  financing, and property management end to end. It raised a $10 million Series B
+  in May 2020 led by Alpha Edison with participation from Lightspeed Venture Partners.
+  The business appears to have wound down - its website has lapsed (Squarespace account
+  expired) and its Los Angeles location is marked closed as of mid-2026 - and it publishes
+  no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/united-dwelling/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Real Estate
+- Housing
+- Accessory Dwelling Units
+- Construction
+- Property Management
+- Affordable Housing
 apis: []
+common:
+- type: DomainSecurity
+  url: security/united-dwelling-domain-security.yml
+- name: Website
+  type: Website
+  url: https://www.uniteddwelling.com
+- name: LinkedIn
+  type: LinkedIn
+  url: https://www.linkedin.com/company/uniteddwelling
+- name: LLMs Text
+  type: LLMsTxt
+  url: llms/united-dwelling-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

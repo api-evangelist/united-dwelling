@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.uniteddwelling.com
+host: https://www.uniteddwelling.com
+notes: Website is an expired Squarespace placeholder (root returns 404); no well-known
+  discovery surface exists. Probe statuses recorded for the record - no documents saved.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404

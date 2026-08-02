@@ -1,0 +1,15 @@
+# United Dwelling
+
+> United Dwelling was a Los Angeles-based real estate development company founded in 2018 by Steven Dietz that converted underused garages and backyards into affordable accessory dwelling units (ADUs), handling permitting, construction, financing, and property management end to end. The business appears to have wound down: its website has lapsed and it publishes no public API or developer program.
+
+United Dwelling is catalogued in the API Evangelist network as a Lightspeed Venture Partners portfolio company. It has no public API, developer portal, OpenAPI specification, SDKs, or machine-readable discovery surface (/.well-known/ and /llms.txt probes returned 404 as of 2026-07-21).
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/united-dwelling/refs/heads/main/apis.yml): Machine-readable company profile
+- [Website](https://www.uniteddwelling.com): Company website (expired Squarespace placeholder as of 2026-07-21)
+- [LinkedIn](https://www.linkedin.com/company/uniteddwelling): Company LinkedIn page
+
+## APIs
+
+No public APIs are known for this company.
