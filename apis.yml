@@ -34,6 +34,9 @@ description: United Dwelling was a Los Angeles-based real estate development com
   expired) and its Los Angeles location is marked closed as of mid-2026 - and it publishes
   no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/united-dwelling/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The business appears to have wound down - its website has lapsed (Squarespace account expired) and its Los Angeles location is marked closed as of mid-2026 - and it publishes no public API or develope"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
