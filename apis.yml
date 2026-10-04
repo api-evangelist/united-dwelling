@@ -48,7 +48,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Housing
 - Accessory Dwelling Units
 - Construction
@@ -62,6 +62,7 @@ tags_raw:
 - Construction
 - Property Management
 - Affordable Housing
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
